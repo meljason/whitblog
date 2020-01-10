@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#logo {
+    height: 100%;
+    float: left;
+    color: #ffb6b9;
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    font-family: 'Marck Script', cursive;
+}
+
+#logo span {
+    font-weight: 1000;
+    color: #fae3d9;
+}
