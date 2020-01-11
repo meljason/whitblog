@@ -23,6 +23,16 @@
                 <input type="number" class="form-control-lg col-8" id="ageInput" placeholder="18">
             </div>
 
+            <div class="form-group row">
+                <label for="academicHolder" class="col-sm-3 col-form-label col-form-label-lg">License Holder</label>
+                <select class="form-control-lg col-8" id="academicHolder">
+                    <option>None</option>
+                    <option>G1</option>
+                    <option>G2</option>
+                    <option>G</option>
+                </select>
+            </div>
+
             <div class="gender-selection">
                 <div class="form-check-inline">
                     <label class="form-check-label col-form-label-lg">
@@ -36,7 +46,6 @@
                     </label>
                 </div>
             </div>
-
 
         </form>
     </div>
