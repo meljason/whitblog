@@ -13,17 +13,65 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    background-color: #be9fe1;
+    height: 10em;
+    margin-bottom: 4em;
+}
+
+body {
+    font-size: 0.6rem !important;
+    line-height: 1.8;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 6em;
+    color: #ea9abb;
+}
+
+h2, p {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
 #logo {
     height: 100%;
     float: left;
     color: #ffb6b9;
     display: flex;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 6em;
     font-family: 'Marck Script', cursive;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #logo span {
     font-weight: 1000;
     color: #fae3d9;
+}
+
+.navbar {
+    height: 100%;
+    font-size: 2.5em;
+}
+
+.navbar ul li {
+    margin-right: 1em;
+}
+
+.navbar ul li a {
+    color: #fae3d9;
+}
+
+.personality-assessment-form {
+    width: 50%;
+    margin: 0 auto;
+
 }
