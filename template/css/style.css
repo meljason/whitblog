@@ -23,6 +23,13 @@ body {
     font-size: 0.6rem !important;
     line-height: 1.8;
     font-family: 'Quattrocento Sans', sans-serif;
+
+    /* picture taken from https://www.freepik.com/free-photo/cute-flowers-pink-background-with-space-right_1321463.htm#page=1&query=pink%20background&position=34 */
+    background: url(../images/pink-flower.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
@@ -35,12 +42,20 @@ h1 {
     color: #ea9abb;
 }
 
-h2, p {
+h2 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    color: #be9fe1;
+}
+
+p {
     font-family: 'Quattrocento Sans', sans-serif;
+    color: #be9fe1;
+    font-size: 2.3em;
 }
 
 
-#logo {
+header #logo {
     height: 100%;
     float: left;
     color: #ffb6b9;
@@ -52,7 +67,7 @@ h2, p {
     padding-right: 1em;
 }
 
-#logo span {
+header #logo span {
     font-weight: 1000;
     color: #fae3d9;
 }
@@ -71,7 +86,79 @@ h2, p {
 }
 
 .personality-assessment-form {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
+    padding: 3em;
+    border: 3px solid #be9fe1;
+    border-radius: 10px;
+    background-color: #FAD9DF;
+    box-shadow: 3px 5px 5px 8px #be9fe1;
 
+}
+
+.personality-assessment-form form label,
+.personality-assessment-form form select,
+.personality-assessment-form form input,
+.personality-assessment-form form button{
+    color: #be9fe1;
+    font-family: 'Marck Script', cursive;
+    font-size: 2.1em;
+}
+
+.btn.btn-primary {
+    background-color: #be9fe1;
+    border: none;
+    color: #FAD9DF;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+    color: #ffffff;
+    background-color: pink;
+    border-color: #be9fe1;
+}
+
+.website-footer {
+    background-color: #be9fe1;
+    color: #fae3d9;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 2.1em;
+}
+
+footer #logo {
+    height: 100%;
+    float: left;
+    color: #ffb6b9;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Marck Script', cursive;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer #logo span {
+    font-weight: 800;
+    color: #fae3d9;
+}
+
+.footer-nav {
+    text-align: right;
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline;
+
+}
+
+.footer-nav li a {
+    color: #fae3d9;
+}
+
+.footer-nav li:not(:first-child):before {
+    content: '|';
+    padding: 0px 1em;
 }

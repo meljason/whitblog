@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fe03b5-de58-4340-b821-1442657d8f9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/includes/thankyoucontent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/images/pink-flower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thankyou.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +22,42 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WBrzYk5TreDk8Coa2svr8BXxAw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RunManager">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/template/js/script.js" working-dir="$PROJECT_DIR$/template/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,18 +84,22 @@
       <workItem from="1578634094289" duration="3585000" />
       <workItem from="1578638069881" duration="1147000" />
       <workItem from="1578711040608" duration="1668000" />
-      <workItem from="1578713331704" duration="2727000" />
+      <workItem from="1578713331704" duration="2768000" />
+      <workItem from="1578786156513" duration="6592000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="440" key="NewPhpFileDialog" timestamp="1578635235581">
+    <state x="478" y="440" key="NewPhpFileDialog" timestamp="1578811887720">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="478" y="440" key="NewPhpFileDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1578635235581" />
+    <state x="478" y="440" key="NewPhpFileDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1578811887720" />
     <state x="145" y="159" key="SettingsEditor" timestamp="1578636291578">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
